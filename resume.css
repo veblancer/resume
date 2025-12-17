@@ -1,0 +1,69 @@
+*{
+    text-align: center;
+}
+h1 , h2 ,header , p{
+    background-color: lightseagreen;
+}
+a{
+    padding: 0px 45px 0px 45px;
+}
+.contact , #FORM {
+    font-size: xx-large;
+    background-color: lightseagreen;
+}
+.fixed{
+    position: fixed;
+    left: 110px;
+    top: 0px;
+    background-color: lightseagreen;
+}
+.table{
+    position: sticky;
+    left: 450px;
+}
+.move{
+    position:fixed;
+    bottom: 0px;
+    left: 450px;
+}
+a{
+    background-color:lightseagreen;
+}
+
+.sun {
+    overflow: auto;
+    border:2px solid yellow;
+    width: 1300px;
+    height:100px
+    
+}
+.rid{
+    display: grid;
+    grid-area: 2px;
+    justify-items: center;
+
+    border:2px solid lightseagreen;
+    width: 1000px;
+  padding: 0px 200px 0px 200px;
+}
+.box{
+    background-color: lightseagreen;
+    margin: 10px;
+    width:800px;
+    border:2px solid lightseagreen
+}
+.lex{
+    width: 1000px;
+    height: 500px;
+    padding: 0px 200px 0px 200px;
+    display: flex;
+    justify-content:space-evenly ;
+    border:2px solid lightseagreen
+
+}
+.boxx{
+    border: 2px solid lightseagreen;
+    margin: 10px;
+    width:800px; 
+    background-color: lightseagreen;
+}  
