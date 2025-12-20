@@ -50,21 +50,29 @@ a{
     background-color: lightseagreen;
     margin: 10px;
     width:800px;
-    border:2px solid lightseagreen
+    border:2px solid lightseagre
 }
-.tool{
-    width: 1000px;
-    height: 500px;
-    padding: 0px 200px 0px 200px;
+
+    .tool{
+    border: 4px solid lightseagreen;
+    background-color: lightseagreen; 
+    height: 580px;
+
     display: flex;
-    justify-content:space-evenly ;
-    border:2px solid lightseagreen
+
+    flex-flow: wrap row;
+    gap: 2px;
+
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
 
 }
 .toy{
     border: 2px solid lightseagreen;
-    margin: 10px;
-    width:800px; 
-    background-color: lightseagreen;
-}  
+    width: 200px;
+
+}
+            
+
 
